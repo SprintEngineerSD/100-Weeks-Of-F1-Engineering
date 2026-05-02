@@ -1,3 +1,15 @@
+## Day 4: Miami GP Sprint Qualifying Analysis
+Comparing the throttle application between Max Verstappen and Lando Norris.
+
+### Key Insights
+* **Verstappen:** Earlier throttle application in Turn 17.
+* **Norris:** Smoother power delivery through the sector 2 high-speed sweeps.
+
+### Visual Analysis
+![Miami GP Throttle Comparison](TELEMETRY%20ANALYSIS/miami_26_throttle_comparison.png)
+
+
+
 Day 3 : The Delta Path
 **Objective:** Mastering the primary tool of the Race Engineer—The Delta Graph.
 
