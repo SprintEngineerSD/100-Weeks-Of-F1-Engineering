@@ -1,5 +1,15 @@
-**/f1_cache/
-.idea/
-__pycache__/
-*.pyc
+# Ignore the massive telemetry data caches
+f1_cache/
+*.ff1pkl
+*.sqlite
+
+# Ignore Python virtual environments and internal IDE settings
 .venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+
+# Ignore local system junk
+.DS_Store
+Thumbs.db
