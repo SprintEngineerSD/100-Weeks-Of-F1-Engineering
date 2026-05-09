@@ -1,3 +1,32 @@
+## Day 6: 2024 Spanish GP Qualifying Analysis
+This analysis investigates the technical margins between Lando Norris (Pole) 
+and Max Verstappen (P2) during the final qualifying session at the 2024 Spanish Grand Prix.
+
+1) _**Initial Pace & Aerodynamic Efficiency:**_ In the high-speed opening phase, both drivers are within a similar window,
+    though Max maintains a slight speed advantage of approximately 10 km/h on the straights. 
+    This underscores the low drag efficiency of the RB20's aerodynamic package.
+
+2) **_Braking Zone Entry:_** As we approach the 400m mark, Lando Norris’s deceleration curve begins earlier.
+   While Max pushes deeper into the braking zone, a trademark of his aggressive style, 
+   the telemetry suggests Norris is prioritizing a more stable platform for the corner apex.
+
+3) **_Mid-Corner Instability:_** Just before the exit of the primary braking zone, the RB20 appears to experience a minor disturbance. 
+     This could indicate a snap of oversteering or a front-end "wash" (understeer) that forced Max to modulate his inputs. 
+     This loss of stability is the exact moment Max begins to lose the time delta to the McLaren.
+
+4) **_Traction & Exit Strategy:_** Because Norris maintained a cleaner mid-corner line, he achieved superior traction on exit.
+  He reached 100% throttle application significantly earlier than Max. This superior exit momentum allowed him to recover 
+  the straight line deficit, ultimately clinching Pole Position.
+
+## Visual Analysis
+Top Chart: Velocity Trace (km/h) Visualizes the time delta. (As discussed on Day 5).
+
+Middle Chart: Throttle Application Shows driver aggression and traction limits.
+
+Bottom Chart: Brake Engagement Highlights the braking points and trail-braking phases.
+![SPANISH GP 2024 QUALIFYING Throttle,Brake ANALYSIS](TELEMETRY%20ANALYSIS/Spain_2024_Full_Telemetry.png)
+
+
 ## Day 5 : 2024 Spanish GP Qualifying Analysis
 Comparing and analyzing Distance v/s speed graph for Verstappen (*BLUE*)
 and Norris (*ORANGE*).
@@ -17,7 +46,7 @@ and Norris (*ORANGE*).
    great traction out of the corner which led to him saving a lot of time eventually getting him a **Pole**
 
 ### Visual Analysis
-![Miami GP Throttle Comparison](TELEMETRY%20ANALYSIS/2024_spain_norver.png)
+![SPANISH GP 2024 QUALIFYING ANALYSIS](TELEMETRY%20ANALYSIS/2024_spain_norver.png)
 
 
 
