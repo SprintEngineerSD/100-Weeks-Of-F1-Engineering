@@ -1,3 +1,23 @@
+## Day 7: 2024 Sao Paulo GP Race Analysis
+This analysis investigates the strategic execution and technical wet-weather mastery of Max Verstappen during his historic climb from P17 to P1 at the 2024 Sao Paulo Grand Prix.
+
+1) _**The Opening Lap Blitz:**_ Starting out of position due to a grid penalty and a red-flagged qualifying, Max bypassed six cars on Lap 1 alone. Positional data shows him utilizing unconventional, karting-style outside lines to find grip where rubber hadn't been laid down, instantly propelling him into the midfield.
+
+2) _**Patience & Strategic Masterstroke:**_ After stalling at P6 due to the severe spray and dirty air of the cars ahead, Red Bull made the decisive call to keep Max on track as rain intensified and rivals pitted. A subsequent Red Flag allowed for a "free" tyre change, perfectly converting his on-track patience into a front-row restart position.
+
+3) _**Wet-Weather Throttle Modulation:**_ Unlike dry conditions where throttle application is highly binary (0% or 100%), the telemetry reveals a massive spread of micro-modulations in the 40% to 80% range. This right-foot precision—feathering the pedal rather than relying on engine mapping—prevented the rear wheels from breaking traction and preserved the delicate intermediate tyre tread.
+
+4) _**Pace Evolution & Tyre Preservation:**_ Rather than experiencing standard thermal degradation (slower lap times), Max's lap times consistently dropped as the track dried. By not overworking the intermediate compound early in the final stint, he retained enough grip to set a string of fastest laps, pulling nearly a second per lap on the rest of the field to secure the win.
+
+## Visual Analysis
+Top Chart: Pace Evolution & Tyre Degradation Visualizes the drying track effect and the severe lap time spikes caused by Safety Car and VSC periods.
+
+Middle Chart: Track Position Progression Shows the immediate Lap 1 climb, the mid-race plateau at P6, and the strategic Red Flag jump to the front of the pack.
+
+Bottom Chart: Throttle Application Distribution Highlights the "feathering" technique, proving his mechanical sympathy and traction control in the wet.
+
+![SAO PAULO GP 2024 Race Analysis](TELEMETRY%20ANALYSIS/verstappen2024sao.png)
+
 ## Day 6: 2024 Spanish GP Qualifying Analysis
 This analysis investigates the technical margins between Lando Norris (Pole) 
 and Max Verstappen (P2) during the final qualifying session at the 2024 Spanish Grand Prix.
