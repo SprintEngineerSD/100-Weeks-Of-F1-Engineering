@@ -1,3 +1,24 @@
+## Day 8: 2026 Canadian GP Setup Instability Analysis (FP1 vs Sprint)
+This analysis investigates the severe driveability degradation of Max Verstappen's car between Practice 1 and the Sprint session at the 2026 Canadian Grand Prix. With direct ride-height and suspension telemetry encrypted by the teams, this project utilizes raw speed, throttle, and brake traces to mathematically infer severe bouncing and a loss of mechanical compliance over the Circuit Gilles Villeneuve.
+
+1) _**Straight-Line Bottoming & Aerodynamic Stalling:**_ On the high-speed run down the Casino Straight, the Sprint speed trace flattens prematurely compared to the FP1 baseline. This velocity plateau indicates that the lowered ride height caused the floor plank to physically drag on the tarmac. This excessive friction, combined with the aerodynamic stall from porpoising, severely compromised terminal top speed.
+
+2) _**Throttle Micro-Lifts (The Confidence Deficit):**_ The most glaring evidence of an undrivable setup appears in the high-speed throttle telemetry. During FP1, Verstappen maintained 100% throttle cleanly until the braking phase. In the Sprint, the telemetry reveals distinct "feathering" and early lifts (dropping to 80-90% throttle) well before the Turn 13 braking zone. This proves the violent bouncing forced him to physically lift off the pedal to maintain control and keep the rear axle settled.
+
+3) _**Braking Instability & Kerb Rejection:**_ Montreal requires a compliant suspension to attack the heavy kerbs. The brake trace during the Sprint reveals highly erratic, staggered braking inputs—a stark contrast to the clean, solid block of braking seen in FP1. Because the stiffer suspension setup caused the tires to literally skip across the bumpy surface, the contact patch was inconsistent, forcing Max to modulate the brakes heavily to avoid front lock-ups.
+
+4) _**Mid-Corner V-Min & Traction Loss:**_ Due to the stiffened mechanical platform, the car failed to absorb the track's natural undulations. This resulted in a lower minimum cornering speed ($V_{min}$) through the Turn 8/9 chicane. Furthermore, the throttle trace shows a delayed return to 100% on corner exit, as the lack of mechanical grip meant the rear tires could not deploy torque efficiently without snapping into oversteer.
+
+## Visual Analysis
+Top Chart: Velocity Trace (km/h) Highlights the top speed deficit on the Casino Straight and lower mid-corner minimums due to excessive bottoming out.
+
+Middle Chart: Throttle Application Exposes the lack of driver confidence, explicitly showing the early throttle lifts and delayed exit traction caused by the bouncing.
+
+Bottom Chart: Brake Engagement Visualizes the erratic pedal modulation required to survive the braking zones with a stiff, non-compliant suspension setup over the Montreal kerbs.
+
+![CANADIAN GP 2026 Setup Instability Analysis](TELEMETRY%20ANALYSIS/VerstappenCNGP26.png)
+
+
 ## Day 7: 2024 Sao Paulo GP Race Analysis
 This analysis investigates the strategic execution and technical wet-weather mastery of Max Verstappen during his historic climb from P17 to P1 at the 2024 Sao Paulo Grand Prix.
 
