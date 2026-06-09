@@ -1,3 +1,26 @@
+## Day 9: 2026 Monaco GP Qualifying Analysis (Antonelli vs Verstappen)
+This analysis breaks down the final Q3 runs at the 2026 Monaco Grand Prix, where Mercedes' Kimi Antonelli delivered a "magic lap" (1:12.051) to narrowly edge out Red Bull's Max Verstappen (1:12.094) by a mere 0.043 seconds for Pole Position.
+
+1) _**Time Delta & Sector Exchanges:**_ The time delta trace (Top Panel) illustrates a classic street-circuit tug-of-war. Verstappen routinely gained fractions of a second under heavy braking and corner entry, sending the delta line into the negative. However, Antonelli's Mercedes possessed superior mechanical grip, allowing him to consistently claw the time back on corner exits, steadily driving the delta positive through Sector 2 and the Swimming Pool complex. 
+
+2) _**Nouvelle Chicane Braking Commitment:**_ The braking trace (Bottom Panel) reveals the contrasting styles of the two drivers at the heaviest braking zone on the circuit (out of the tunnel into the Nouvelle Chicane). Verstappen brakes marginally later and deeper into the zone, maximizing his entry speed. Antonelli, conversely, initiates his braking phase slightly earlier to prioritize a stable platform, ensuring he avoids locking up on the downhill, bumpy approach.
+
+3) _**Traction & Throttle Pick-Up:**_ Monaco is defined by low-speed traction, and the throttle telemetry (Panel 3) highlights why Antonelli secured pole. Out of Portier (before the tunnel) and La Rascasse, Antonelli's throttle trace spikes to 100% significantly earlier than Verstappen's. The Red Bull struggles slightly with rear-end rotation, forcing Max to modulate the pedal briefly before fully deploying the power. This early throttle application by Antonelli translates to higher terminal speeds down the subsequent short straights.
+
+4) _**Corner Minimums ($V_{min}$):**_ Looking at the Velocity trace through the hairpin and the tight confines of Sector 3, Antonelli rolls more minimum speed through the apexes. While Verstappen relies on aggressive rotation and point-and-shoot dynamics, Antonelli's smoother steering inputs and the Mercedes' compliant front-end geometry allow him to carry more momentum through the center of the corners.
+
+## Visual Analysis
+Top Chart: Time Delta Maps exactly where the 0.043s advantage was built. Watch the line rise on corner exits (Mercedes advantage) and fall on corner entries (Red Bull advantage).
+
+Middle-Top Chart: Velocity Trace (km/h) Shows Antonelli's superior apex speeds ($V_{min}$) and exit momentum.
+
+Middle-Bottom Chart: Throttle Application (%) Spotlights the Mercedes' immense mechanical traction out of low-speed corners.
+
+Bottom Chart: Brake Application Highlights Verstappen's aggressive, late-braking philosophy versus Antonelli's stabilizing approach.
+
+![MONACO GP 2026 Qualifying Analysis](TELEMETRY%20ANALYSIS/verkimiMonaco26.png)
+
+
 ## Day 8: 2026 Canadian GP Setup Instability Analysis (FP1 vs Sprint)
 This analysis investigates the severe driveability degradation of Max Verstappen's car between Practice 1 and the Sprint session at the 2026 Canadian Grand Prix. With direct ride-height and suspension telemetry encrypted by the teams, this project utilizes raw speed, throttle, and brake traces to mathematically infer severe bouncing and a loss of mechanical compliance over the Circuit Gilles Villeneuve.
 
