@@ -1,3 +1,97 @@
+## Day 11: 2026 AUSTRIAN GP Analysis (Hamilton vs Verstappen)
+Lewis Hamilton (Scuderia Ferrari) vs. Max Verstappen (Oracle Red Bull Racing)
+
+_**Event: 2026 Austrian GP, Red Bull Ring (Spielberg)**_
+Analytical Laps: Lap 11 (Defense) & Lap 22 (Overtake)
+
+_** 1. Executive Summary & Strategic Chess: The Pit Stop Window**_
+The high-altitude, low-downforce nature of the Spielberg circuit always exposes differences in thermal degradation and traction management. At the 2026 Austrian GP, the tactical battle between Lewis Hamilton (Ferrari) and Max Verstappen (Red Bull) was decided not just by physical driving lines, but by a classic strategic fork.
+
+                    RACE TIMELINE & PIT STRATEGY (LAPS 1 - 22)
+                    
+Lap:  0                 13               19         22
+      |-----------------|----------------|----------|-------------------------> (Finish)
+HAM:  [--- Mediums -----]====== Hards (10 Laps Old) =======> [Struggling for traction]
+VER:  [--------- Mediums ----------------]=== Hards (4 Laps Old) ===> [Grip Advantage]
+
+
+The Strategy Split:
+Referring to the Race Pit Strategy Timeline at the top of image2, we can trace the structural setup of the Lap 22 overtake:
+Hamilton’s Defensive Pit Trigger (Lap 13): Ferrari chose to trigger an early pit stop on Lap 13, switching Hamilton from Mediums to the C2 Hard compound. This move aimed to protect him from an undercut and secure track position. However, it forced Hamilton to run a highly extended second stint, subjecting his tyres to extreme heat cycles.
+Verstappen’s Over-Cut Strategy (Lap 19): Red Bull chose to leave Verstappen out until Lap 19. By running 6 laps longer on his initial Medium compound, Verstappen lost temporary track position but achieved a massive $\Delta = 6\text{ laps}$ tyre offset advantage once he switched to the Hard compound.
+The Strategic Payoff on Lap 22: As shown in the Tyre Offset at Lap 22 bar chart in image2, by Lap 22 Hamilton's Hard tyres were already $10\text{ laps}$ old and suffering from thermal degradation. Verstappen's Hards, at just $4\text{ laps}$ old, were in their optimal working window. This $6\text{ lap}$ offset gave Verstappen an additional $0.35\text{-}0.45\text{s}$ of intrinsic mechanical grip.
+
+_** 2. Lap 11: Hamilton's Defensive Masterclass:**_
+In the early stages of the race, both drivers were running on identical $11\text{-lap-old}$ Medium tyres (image1). Without a tyre offset advantage, we see a pure, unadulterated tactical duel between two of the greatest drivers to ever sit in a Formula 1 cockpit.
+
+                                  TURN 3 TACTICAL DEFENSE (LAP 11)
+                                  
+     Verstappen (DRS Run): 340 km/h 
+     ===================================\
+                                         \  Verstappen forced to wide, dusty line
+                                          \____________________
+                                         /
+                                        /  Hamilton "parks" on apex: ~48 km/h
+     Hamilton (Defensive Line): 310 km/h ______________________/
+
+
+The Set-Up (800m to 1100m)
+Looking at the Lap 11 Speed Profile in image1, Verstappen utilized his DRS wing down the straight leading into Turn 3.
+Between $800\text{m}$ and $1000\text{m}$, Verstappen’s speed trace rises steeply to a peak velocity of $340\text{ km/h}$, while Hamilton's defensive, non-DRS line tops out at $310\text{ km/h}$.
+Max had a massive delta speed advantage of $+30\text{ km/h}$ going into the braking zone. Under normal circumstances, this is an easy pass.
+
+The Apex "Parking" Defense (1100m to 1300m)
+This is where Lewis Hamilton’s decades of experience shone through:
+
+Brake Phase: Looking at the Braking Application panel, Hamilton delayed his braking application slightly or modulated his pressure to stay side-by-side on the inside defensive line.
+Apex Manipulation: Look at the massive speed drop in the Speed Profile at Turn 3 ($1200\text{m}$). Hamilton dropped his minimum apex speed to a staggering $48\text{ km/h}$, whereas Verstappen's standard racing line would expect a minimum speed closer to $65\text{-}70\text{ km/h}$.
+The Defensive Goal: By deliberately "parking" his Ferrari at the apex, Hamilton blocked the inside curb, forcing Verstappen to check his momentum and steer wide. This completely destroyed Verstappen's throttle application phase, neutralizing the Red Bull's exit drive up the hill.
+
+_**3. Lap 22: Verstappen's Clinical Overtake:**_
+By Lap 22, the psychological and physical parameters had shifted completely. Max Verstappen had the mechanical grip of fresher rubber ($4\text{ laps}$ old Hards vs. Hamilton's $10\text{ laps}$ old Hards), and he executed a textbook overtake.
+
+The Attack at Turn 3:
+Referencing image2:
+Hamilton attempted the same "parking" defense into Turn 3 at $1200\text{m}$, pulling his minimum speed down to $55\text{ km/h}$.
+However, because Verstappen had vastly superior tyre grip, his Red Bull was much more stable under deceleration. Verstappen delayed his braking input (Braking Application trace) and chose a wider, sweeping apex.
+Even though Hamilton kept the lead out of Turn 3, his older tyres suffered from thermal wheelspin as he tried to put the power down.
+
+The Overtake at Turn 4 (1800m to 2100m):
+The Exit Run: Down the descent toward Turn 4, Verstappen carried a massive traction advantage. Look at the Speed Profile between $1500\text{m}$ and $1800\text{m}$: Verstappen's speed trace is consistently higher, building a speed delta of $+15\text{ km/h}$ before the braking zone.
+Braking Zone Turn 4 ($2000\text{m}$): Look at the Braking Application panel on Lap 22. Verstappen delayed his brake application compared to Hamilton.
+The Pass: Hamilton, fighting a heavily degraded rear axle, had to brake earlier and release the pedal more progressively to prevent a rear-end slide. Verstappen trustfully threw his car down the inside, carried a much higher apex speed of $92\text{ km/h}$, and swept past into Turn 4 to seal the position.
+
+_**4. Vehicle Dynamics: RPM and Brake Modulation:**_
+
+Evaluating the physical driver inputs shows us how these two champions operate at the absolute limit of physics.
+
+                    RPM TRACE CORRELATION TO TRACTION LIMIT
+                    
+12,500 RPM |             /\_   _/\     <-- Verstappen (Lap 22): Stable traction, 
+           |            /   \_/   \        smooth application of torque.
+10,000 RPM |   /\_/\_/\_           \   <-- Hamilton (Lap 22): Jagged peaks, fighting
+           |__/      \____________  \      wheelspin and thermal slides.
+           0m                     1000m
+
+
+Throttle Modulation & RPM Stability (Lap 11 vs. Lap 22):
+On Lap 11: Both drivers had highly jagged Engine RPM Profiles (image1). This shows them both fighting the limits of adhesion on degraded Medium tyres. Hamilton's RPM trace shows heavy short-shifting at $11,000\text{ RPM}$ to prevent rear-wheel spin, while Verstappen was constantly modulating his throttle to keep his rear suspension settled.
+On Lap 22: Look at Verstappen's RPM Profile in image2. His RPM rise is incredibly smooth and linear, especially on the exits of Turn 1 ($300\text{m}$) and Turn 3 ($1300\text{m}$). The fresh Hard tyres allowed his engine to transfer torque straight to the asphalt without slipping.
+Hamilton's RPM trace on Lap 22, by contrast, is highly erratic. At $2500\text{m}$ (exiting Turn 4), Hamilton’s RPM dips violently below $9000\text{ RPM}$, showing where he had to drastically lift off the throttle to catch a snap of oversteer on his worn rear tyres.
+
+Brake Modulation (On/Off Patterns)
+In the Braking Application charts, notice the duration of the "Applied" state. On Lap 11, Hamilton kept his brakes applied longer into Turn 3 ($1200\text{m}$) and Turn 4 ($2000\text{m}$) compared to Verstappen. This is a classic trail-braking technique designed to keep the front nose of his Ferrari pinned to the apex, ensuring the car rotated in the middle of the corner despite his worn tyres.
+On Lap 22, Verstappen was able to release his brakes much earlier and transition straight back to the throttle, utilizing the aerodynamic downforce of his stable platform to slide past the struggling Ferrari.
+
+_**5. Summary of the Overtake: Human Brilliance in the Cockpit:**_
+
+What makes this data so special is that it highlights the immense, human intellect required to drive these machines:
+Hamilton's Mastery: Lewis Hamilton knew his Ferrari did not have the raw speed of the Red Bull. His defense on Lap 11 was an artistic demonstration of defensive placement. He used the geometry of the track, purposefully slowing down to choke Verstappen's options and force him into a bottleneck. It was clean, fair, and incredibly intelligent.
+Verstappen's Relentlessness: Max Verstappen did not panic when blocked on Lap 11. He stayed patient, worked with his engineers to extend his stint, and waited for his tyre offset advantage to ripen. His pass on Lap 22 was clinical, relying on superior mechanical grip and absolute confidence under heavy braking into Turn 4.
+This duel is the perfect case study of why Formula 1 is a masterclass in engineering, strategy, and elite athletic performance.
+![AUSTRIAN GP 2026 RACE Analysis Plot 1](TELEMETRY%20ANALYSIS/austrialap11.png)
+![AUSTRIAN GP 2026 RACE Analysis Plot 2](TELEMETRY%20ANALYSIS/austrialap22.png)
+
 ## Day 10: 2026 Spanish GP Analysis (Hamilton vs Russell)
 Comparative Analysis: Lewis Hamilton (Scuderia Ferrari) vs. George Russell (Mercedes-AMG)
 
