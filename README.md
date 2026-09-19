@@ -22,6 +22,8 @@ Exit Traction: This superior rear-end traction management allowed Gasly to accel
 Monza is a nightmare for single-lap thermal management. The long straights drastically cool the brakes and tyre surfaces, making the heavy braking zones incredibly prone to front-wheel lockups.
 Brake Temperature Control: Gasly’s braking telemetry reveals a masterclass in modulation. Into Turn 1, his initial brake application is fiercely binary (hitting 100% pressure instantly while aerodynamic load is highest), but his bleed-off is incredibly smooth. This prevented the notorious front-left lockup, keeping core brake temperatures in check for the rest of the lap.
 Rear Tyre Preservation: A common qualifying error at Monza is over-driving the exits of the first two chicanes, which overheats the rear Soft (C4) tyres and leaves them "cooked" for Sector 3. By keeping his RPM linear and minimizing wheelspin out of Turns 2 and 5, Gasly kept the bulk temperature of his rear tyres perfectly within the optimal operating window.
+![MONZA QUALIFYING GASLY RUSSELL](TELEMETRY%20ANALYSIS/monza_2026_q3_gasly_pole.png)
+
 
 ## Day 11: 2026 AUSTRIAN GP Analysis (Hamilton vs Verstappen)
 Lewis Hamilton (Scuderia Ferrari) vs. Max Verstappen (Oracle Red Bull Racing)
