@@ -1,3 +1,28 @@
+## Day 12: 2026 Italian GP Monza (Gasly and Russell)
+This analysis breaks down the Q3 telemetry from the 2026 Italian Grand Prix, where Pierre Gasly (Alpine) secured his maiden pole position, narrowly beating George Russell (Mercedes) by 0.060 seconds. By applying distance-normalized speed integration, the data reveals the precise vehicle dynamics, aerodynamic efficiency, and driver inputs that decided the front row at the "Temple of Speed".
+
+_**📊 Telemetry Breakdown & Vehicle Dynamics**_
+1. The Variante della Roggia Ambush (Turn 4 & 5):
+The defining moment of Gasly’s lap occurred at the second chicane, the Variante della Roggia.
+The Delta Spike: The time delta chart displays a massive upward spike for Gasly exactly at the 1500m to 1700m mark.
+Braking Signature: Arriving at speeds exceeding 310 km/h, Gasly braked significantly later than Russell at the 100-meter board. The braking trace shows Gasly holding a steeper, more committed brake pressure curve, utilizing aggressive trail-braking to rotate the Alpine through the tight left-hand entry.
+Minimum Apex Speed: Gasly sacrificed a fraction of apex speed in Turn 4 to prioritize the car's stability and positioning for Turn 5, securing a vastly superior exit trajectory out of the chicane sequence.
+
+2. Aerodynamic Drag & The Speed Profile:
+Monza demands the lowest downforce configuration of the calendar. The speed trace exposes the aerodynamic parity between the two chassis, which both utilize the Mercedes power unit.
+Straight-Line Velocity: Gasly’s V-Max on the main straight (Rettifilo) and the run down to the Ascari chicane perfectly matched or marginally exceeded Russell's. This confirms Alpine’s low-drag rear wing setup was highly optimized, preventing Mercedes from deploying their traditional top-speed advantage.
+RPM & Gear Shifts: The Engine RPM trace indicates identical gear-shift mapping up to 8th gear, but Russell experienced slight RPM instability out of the first chicane (Variante del Rettifilo), indicating micro-corrections for wheelspin.
+
+3. Parabolica (Turn 11) & The Final Sprint:
+The final corner, Curva Parabolica (Turn 11), dictates the speed carried across the finish line.
+Throttle Application: While Russell carried a slightly higher minimum speed mid-corner, Gasly's braking trace indicates he got off the brakes earlier and applied the throttle more progressively.
+Exit Traction: This superior rear-end traction management allowed Gasly to accelerate cleaner out of the corner, avoiding time-sapping traction control interventions over the curbs and solidifying the 0.060s gap as they crossed the transponder line.
+
+4. Thermal Management: Brakes & Tyres:
+Monza is a nightmare for single-lap thermal management. The long straights drastically cool the brakes and tyre surfaces, making the heavy braking zones incredibly prone to front-wheel lockups.
+Brake Temperature Control: Gasly’s braking telemetry reveals a masterclass in modulation. Into Turn 1, his initial brake application is fiercely binary (hitting 100% pressure instantly while aerodynamic load is highest), but his bleed-off is incredibly smooth. This prevented the notorious front-left lockup, keeping core brake temperatures in check for the rest of the lap.
+Rear Tyre Preservation: A common qualifying error at Monza is over-driving the exits of the first two chicanes, which overheats the rear Soft (C4) tyres and leaves them "cooked" for Sector 3. By keeping his RPM linear and minimizing wheelspin out of Turns 2 and 5, Gasly kept the bulk temperature of his rear tyres perfectly within the optimal operating window.
+
 ## Day 11: 2026 AUSTRIAN GP Analysis (Hamilton vs Verstappen)
 Lewis Hamilton (Scuderia Ferrari) vs. Max Verstappen (Oracle Red Bull Racing)
 
