@@ -1,3 +1,27 @@
+## Day 13: 2026 Italian Grand Prix: Antonelli's P19-to-P1 Masterclass
+
+This repository houses a detailed telemetry and data-science breakdown of the 2026 Italian Grand Prix, where Kimi Antonelli delivered a drive for the history books. Overcoming a power-unit grid penalty, Antonelli surged from 19th on the grid to secure a spectacular home victory for Mercedes, becoming the first Italian to win at Monza in 60 years.
+
+
+_**📈 Phase 1: Strategic Modeling & Pace Advantage**_
+The first phase of our analysis focuses on extracting "true pace" from the noise of a 53-lap Grand Prix.
+
+Key Strategic Takeaways:
+The Dirty Air Climb (Laps 1-28): Antonelli’s early scatter plot shows high variance as he navigated heavy traffic (25 overtakes in total). However, his polynomial trend line reveals that his underlying pace was consistently matching race leaders George Russell and Max Verstappen, indicating masterful tyre preservation while fighting through the pack.
+The VSC Turning Point (Lap 29): The critical strategic junction occurred on Lap 29 when a Virtual Safety Car was deployed. Antonelli capitalized on this "cheap" pitstop to switch to fresh Medium tyres.
+The Grip Offset (Laps 30-50): The smoothed trend lines show the immediate impact of this strategy. While Russell stayed out on aging Hards to protect track position, Antonelli's pace advantage on the Mediums was staggering, consistently lapping up to 1.2 seconds faster than his teammate as he closed the 15-second gap.
+
+_**🏎️ Phase 2: Vehicle Dynamics & The Winning Overtake (Lap 50)**_
+By Lap 50, Antonelli had caught his teammate. The 4-panel telemetry stack (monza_2026_image2_overtake_dynamics.png) dissects the exact lap where the lead changed hands, utilizing distance-normalized interpolation for precise time-delta measurement.
+
+Telemetry Breakdown: _**The Pass**_
+The Setup (Parabolica Exit): The overtake began before the cars even hit the main straight. Looking at the Throttle % graph exiting T11 (Parabolica) at the start of the lap, Antonelli applies power much cleaner and earlier than Russell, whose aged Hard tyres were struggling for traction.
+Slipstream & Out-Braking (T1 Rettifilo): The Speed trace shows Antonelli maximizing the tow down the 1.1 km straight. More importantly, the Brake Application panel reveals Antonelli braking later than Russell into Turn 1, effectively parking his Mercedes on the apex to compromise Russell's exit through T2.
+The Ascari Clincher (T8 - T10): The definitive move is visible in the Time Delta panel between 3500m and 4200m. The line rockets upward as Antonelli utilizes superior grip through the Lesmos to gain a massive speed advantage. He powers past Russell before the braking zone for the Ascari chicane, securing the lead and pulling away into clean air to win by a final margin of 3.8 seconds.
+![MONZA Antonelli Masterclass Img1](TELEMETRY%20ANALYSIS/monza_2026_image1_race_pace.png)
+![MONZA Antonelli overtake Img2](TELEMETRY%20ANALYSIS/monza_2026_image2_overtake_dynamics.png)
+
+
 ## Day 12: 2026 Italian GP Monza (Gasly and Russell)
 This analysis breaks down the Q3 telemetry from the 2026 Italian Grand Prix, where Pierre Gasly (Alpine) secured his maiden pole position, narrowly beating George Russell (Mercedes) by 0.060 seconds. By applying distance-normalized speed integration, the data reveals the precise vehicle dynamics, aerodynamic efficiency, and driver inputs that decided the front row at the "Temple of Speed".
 
